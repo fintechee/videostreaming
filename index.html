@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+  .wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: grid;
+    border-style: none;
+    border-color: red;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2px;
+  }
+  .one {
+    background: #EEE;
+    border-style: none;
+    border-color: blue;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 100%;
+  }
+  .two {
+    background: #EEE;
+    border-style: none;
+    border-color: yellow;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .three {
+    background: #EEE;
+    border-style: none;
+    border-color: violet;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="one">
+      <iframe src="https://www.fintechee.com/web-trader/" style="width:100%;height:100%;border:none"></iframe>
+    </div>
+    <div class="two">
+      <iframe src="https://www.youtube.com/embed/pfxW1-yhm3Y" style="width:100%;height:100%;border:none"></iframe>
+    </div>
+    <div class="three">
+      <iframe src="https://www.fintechee.live/disqus.html" style="width:100%;height:100%;border:none"></iframe>
+    </div>
+  </div>
+</body>
+</html>
